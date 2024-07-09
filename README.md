@@ -14,6 +14,15 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+## Run Project using Serve
+
+Recommended if you already installed **serve** in your machine.
+
+```sh
+npm install -g serve
+serve -s dist
+```
+
 ## Project Setup
 
 ```sh
